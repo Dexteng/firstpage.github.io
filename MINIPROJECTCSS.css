@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    height: 100%;
+    background-image: url(ragnarokbghome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#pages{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+section {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    display: flex;
+}
+#navbarbg {
+    background-color: #113946;
+    border-bottom: solid #BCA37F;
+    border-right: solid #BCA37F;
+    border-left: solid #BCA37F;
+}
+#navbar {
+    margin-top: 5px;
+}
+#navbar a {
+    text-decoration: none;
+}
+#navbar h6{
+    color: #EAD7BB;
+    font-size: 27px;
+    padding: 2px 3px;
+    font-weight: 700;
+}
+#logo {
+    width: 70px;
+    position: relative;
+    top: 10px;
+}
+#contactlogo {
+    width: 45px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    font-size: 15px;
+    font-weight: 700;
+    color: #EAD7BB;
+    background: transparent;
+    border: none;
+    border-bottom: solid #113946;
+    margin-left: 20px;
+}
+.dropdown-content {
+    display: none;
+    border: solid #113946;
+    position: absolute;
+    background-color: #EAD7BB;
+    padding-top: 10px;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    position: relative;
+    color: #113946;
+    text-decoration: none;
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+  
+  .dropdown-content a:hover {background-color: transparent;}
+  
+  .dropdown:hover .dropdown-content {display: block}
+  
+  .dropdown:hover .dropbtn {background-color: transparent;}
+
+  #trailer {
+    max-width: 45rem;
+    width: 55%;
+    max-height: 30.875rem;
+    height: 100%;
+    margin: 1.25rem auto;
+    padding: 1.051%;
+    background-color: #113946;
+    box-shadow: 20px 20px 20px #113946;
+    border-radius: 5px 5px;
+}
+#downloadlinks img {
+    width: 150px;
+}
+#eventsbg {
+    background-image: url(eventsbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid #BCA37F;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    margin-top: 30px;
+    box-shadow: 20px 20px 20px #113946;
+}
+#eventtitle h3{
+    color: #EAD7BB;
+    font-weight: 700;
+    background-color: #113946;
+    border: solid #EAD7BB;
+    box-shadow: 20px 20px 20px #113946;
+}
+#eventcontent {
+    background-color: #113946;
+    margin: 10px;
+    border: solid #EAD7BB;
+    border-radius: 15px;
+    margin-top: 2px;
+    overflow: hidden;
+    height: 65vh;
+    box-shadow: 20px 20px 20px #113946;
+}
+#eventcontent a {
+    text-decoration: none;
+    color: #EAD7BB;
+}
+#newspage {
+    background-color: #EAD7BB;
+    background-image: url(classbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid #BCA37F;
+    padding-bottom: 27px;
+    margin-top: 40px;
+    padding-top: 10px;
+    box-shadow: 20px 20px 20px #113946;
+}
+#newsimg {
+    width: 600px;
+}
+
+#jobselect button {
+    background-color: #113946;
+    border: #FFF2D8 solid;
+    margin-top: 10px;
+    color: #EAD7BB;
+    font-size: 22px;
+}
+#classpage {
+    background-image: url(newsbg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 20px 20px 20px #113946;
+    padding-top: 37px;
+
+}
+.tab-content img {
+    width: 900px;
+    
+}
+#newsbody {
+    background-color: #113946;
+    border: solid 2px #EAD7BB;
+    position: relative;
+    box-shadow: 20px 20px 20px #113946;
+}
+#newsbody h5 {
+    color: #EAD7BB;
+    font-weight: 800;
+    font-size: 20px;
+}
+#newsbody p {
+    color: #EAD7BB;
+    font-size: 15px;
+}
+#newsbody a{
+    text-decoration: none;
+    color: #EAD7BB;
+    font-size: 15px;
+    border-bottom: #EAD7BB solid;
+
+}
+#newspic1 {
+    width: 120vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+}
+#news123 {
+    position: relative;
+    right: 260px;
+}
+#classpage {
+    border: solid #BCA37F 2px;
+}
+#stats {
+    width: 250px;
+}
+#classtext h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #EAD7BB;
+    text-transform: uppercase;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+#classtext p {
+    color: #EAD7BB;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#footer {
+    background-color: #113946;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    display: flex;
+}
+#company {
+    width: 200px;
+    position: relative;
+    right: 10px;
+}
+#footertext a {
+    text-decoration: none;
+    color: #EAD7BB;
+    font-size: 18px;
+    margin: 20px;
+}
+#footertext2 p {
+    text-decoration: none;
+    color: #EAD7BB;
+    font-size: 18px;
+    margin: 20px;
+}
+#topupbtn {
+    background-color: #113946;
+    border: 2px solid #EAD7BB;
+    color: #EAD7BB;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 6px;
+}
+
+#modalbg {
+    background-color: #113946;
+    border: 2px solid #EAD7BB;
+    margin-top: 6px;
+}
+#modalbg button{
+    color: #EAD7BB;
+    font-size: 18px;
+    font-weight: 700;
+}
+#modalbg h1 {
+    color: #EAD7BB;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+#modalbodybg {
+    background-color: #EAD7BB;
+}
+#modalform label {
+    color: #113946;
+    font-size: 14px;
+}
+#submitbg button{
+    background-color: #EAD7BB;
+    border: solid #113946 2px;
+    color: #113946;
+    font-size: 18px;
+}
+#seemoretext a{
+    font-size: 17px;
+    font-weight: 700;
+}
+#eventnavbar {
+    background-color: #113946;
+    border-bottom: solid #BCA37F;
+    border-right: solid #BCA37F;
+    border-left: solid #BCA37F;
+}
+#eventnavbar ul {
+    border: none;
+}
+#eventnavbar ul li a{
+    color: #EAD7BB;
+    font-size: 20px;
+    font-weight: 700;
+}
+#eventpagebg {
+    background-color: #BCA37F;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    box-shadow: 20px 20px 20px #113946;
+    border: #113946 4px solid;
+    border-radius: 10px;
+}
+#event1pic img {
+    width: 500px;
+    border: #113946 solid 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#event1pic h3 { 
+    font-size: 20px;
+    font-weight: 800;
+}
+#event1pic p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}

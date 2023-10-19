@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="MINIPROJECTCSS.css">
+    </head>
+
+    <body>
+      <div id="pages">
+        <div class="sticky-lg-top">
+          <div class="container-fluid text-center" id="stickynavbar">
+              <div class="row" id="navbarbg">
+                <div class="col-sm-3 col-fluid-3" id="navbarbox">
+                  <img src="ragnaroklogo.avif" class="object-fit-sm-contain rounded" id="logo">
+                </div>
+                <div class="col-sm-1" id="navbarbox">
+                  <button type="button" class="btn" id="navbar">
+                      <a href="#page1"><h6>Home</h6></a>
+                      </button>
+                </div>
+                <div class="col-sm-1" id="navbarbox">
+                    <button type="button" class="btn" id="navbar">
+                    <a href="#eventpage"><h6>Events</h6></a>
+                    </button>
+                </div>
+                <div class="col-sm-1" id="navbarbox">
+                  <button type="button" class="btn" id="navbar">
+                    <a href="#newssection"><h6>News</h6></a>
+                    </button>
+                </div>
+                <div class="col-sm-1" id="navbarbox">
+                  <button type="button" class="btn" id="navbar">
+                    <a href="#page4"><h6>Classes</h6></a>
+                    </button>
+                </div>
+                <div class="col-sm-1" id="navbarbox">
+                  <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="navbar"><h6>Support</h6></button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                   <h5 class="offcanvas-title" id="offcanvasRightLabel">Greetings from Kafra!
+                    Welcome to the Customer Service Center of Kafra Corporation. Please input your question in the text box below or click on the top right corner to contact one of our assistants directly.</h5>
+                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                   <div class="offcanvas-body">
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae possimus aliquid exercitationem saepe, magnam, deserunt maxime nisi libero, commodi sunt in. Molestiae quas explicabo amet sunt ad recusandae rem ut!</p>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="dropdown text-center" class="col-4" id="contactlist">
+                    <button class="dropbtn"><img src="contactmenu.png" id="contactlogo"><br>JOIN US</button>
+                    <div class="dropdown-content">
+                      <a href="#">FACEBOOK</a>
+                      <a href="#">TWITTER</a>
+                      <a href="#">YOUTUBE</a>
+                      <a href="#">DISCORD</a>
+                      <a href="#">TIKTOK</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <section id="page1">
+          <div class="container-fluid text-center" id="trailerbox">
+            <video controls autoplay muted id="trailer">
+                <source src="ragnarok trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video><br>
+              <div class="container-fluid text-center" id="downloadlinks">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-fluid-2"><a href="#"><img src="downloadlink1.png"></a></div>
+                    <div class="col-fluid-2"><a href="#"><img src="downloadlink2.png"></a></div>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row">
+                  <div class="col-4"></div>
+                  <div class="col-4">
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" id="topupbtn">
+                      TOP UP!
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content" id="modalbodybg">
+                          <div class="modal-header" id="modalbg">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">TOP UPS!</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form class="row g-3" id="modalform">
+                              <div class="col-md-4">
+                                <label for="validationDefault01" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="validationDefault01" value="" required>
+                              </div>
+                              <div class="col-md-4">
+                                <label for="validationDefault02" class="form-label">Password </label>
+                                <input type="password" class="form-control" id="validationDefault02" value="" required>
+                              </div>
+                              <div class="col-md-4">
+                                <label for="validationDefaultUsername" class="form-label">Ingame Name</label>
+                                <div class="input-group">
+                                  <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                  <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="validationDefault03" class="form-label">Paying Method</label>
+                                <input type="text" class="form-control" id="validationDefault03" required>
+                              </div>
+                              <div class="col-md-3">
+                                <label for="validationDefault04" class="form-label">Products</label>
+                                <select class="form-select" id="validationDefault04" required>
+                                  <option selected disabled value="">Choose...</option>
+                                  <option>20$</option>
+                                  <option>60$</option>
+                                  <option>100$</option>
+                                  <option>200$</option>
+                                </select>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                  <label class="form-check-label" for="invalidCheck2">
+                                    Agree to terms and conditions
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-12" id="submitbg">
+                                <button class="btn" type="submit">Submit form</button>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer" id="modalbg">
+                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4"></div>
+          </div>
+        </section>
+        <section id="eventpage">
+          <div class="container-fluid text-center" id="eventsbg">
+            <div class="row">
+              <div class="col-sm" id="eventtitle"><h3>Ongoing Events</h3><br>
+                <div class="col-sm" id="eventcontent">
+                  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="event1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="event2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="event3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div><br>
+                  <div>
+                    <a href="#">* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nulla eaque nobis vero, ipsa hic assumenda nemo quos cumque ducimus unde quaerat, odit voluptas in quis, saepe excepturi corporis consequuntur.</a>
+                  </div>
+                  <div id="seemoretext">
+                    <a href="topupform.html">See more...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm" id="eventtitle"><h3>Upcoming Events</h3><br>
+                <div class="col-sm" id="eventcontent">
+                  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="event4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="event5.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="event6.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div><br>
+                  <div>
+                    <a href="#">* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique illo itaque obcaecati quo mollitia eligendi laborum ipsum. Cumque a quam adipisci placeat, eum, amet illo earum id consequatur quae doloremque.</a>
+                  </div>
+                  <div id="seemoretext">
+                    <a href="eventpage2.html">See more...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm" id="eventtitle"><h3>Mini Events</h3><br>
+                <div class="col-sm" id="eventcontent">
+                  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="event7.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="event8.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="event9.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div><br>
+                  <div>
+                    <a href="#">* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus repellat doloremque odit tempora cupiditate nobis numquam iusto, deserunt libero voluptatibus similique eaque eligendi, rerum commodi nulla cumque quisquam dignissimos reiciendis.</a>
+                  </div>
+                  <div id="seemoretext">
+                    <a href="eventpage3.html">See more...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="newssection">
+          <div class="container-fluid text-center" id="newspage">
+            <div class="row">
+              <div class="col-sm-7">
+          <div class="card mb-3" style="max-width: 600px;" id="newsbody">
+            <div class="row g-0">
+              <div class="col-sm-4">
+                <img src="newstitle1.jpg" class="img-fluid rounded-start" id="newsimg">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-body">
+                  <h5 class="card-title">Half Year Anniversary Celebration!</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dolor ratione recusandae fugit</p>
+                  <a href="newspage1.html" class="card-text"><small>See more</small></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 600px;" id="newsbody">
+            <div class="row g-0">
+              <div class="col-sm-4">
+                <img src="newstitle2.jpg" class="img-fluid rounded-start" id="newsimg">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-body">
+                  <h5 class="card-title">Up Coming New Updates!</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum delectus consequuntur sequi cupiditate officiis saepe. Ex debitis dolor esse? Velit explicabo quidem mollitia atque, dolore totam asperiores illo modi quia!</p>
+                  <a href="newspage1.html" class="card-text"><small>See more</small></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 600px;" id="newsbody">
+            <div class="row g-0">
+              <div class="col-sm-4">
+                <img src="newstitle1.jpg" class="img-fluid rounded-start" id="newsimg">
+              </div>
+              <div class="col-sm-8">
+                <div class="card-body">
+                  <h5 class="card-title">Ongoing Tournaments!</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint distinctio omnis nesciunt error cumque ea quidem cum.</p>
+                  <a href="#" class="card-text"><small>See more</small></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5" id="news123">
+          <img src="class1.png" id="newspic1">
+        </div>
+         </div>
+          </div>
+          
+        </section>
+        <section id="page4">
+          <div class="container-fluid text-center" id="classpage">
+          <div class="d-flex align-items-start" id="jobselect">
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><h6>Swordsman</h6></button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><h6>Archer</h6></button>
+          <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false"><h6>Merchant</h6></button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><h6>Acolyte</h6></button>
+          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><h6>Thief</h6></button>
+          <button class="nav-link" id="v-pills-mage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mage" type="button" role="tab" aria-controls="v-pills-mage" aria-selected="false"><h6>Mage</h6></button>          
+          </div>
+          <div class="tab-content" id="v-pills-tabContent">
+           <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+            <div class="row text-center" id="classtext">
+              <div class="col-sm-6"><img src="class3.png" id="classpic"></div>
+              <div class="col-sm-6"><img src="stat1.png" id="stats"><br><h3>Swordsman</h3><br>
+              <p>Swordsmen are the embodiment of courage. They specialize in melee combat and act as vanguards in their groups.</p>
+              </div>        
+            </div>
+           </div>
+           <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+            <div class="row text-center" id="classtext">
+              <div class="col-sm-6"><img src="class4.png" id="classpic"></div>
+              <div class="col-sm-6"><img src="stat2.png" id="stats"><br><h3>Archer</h3><br>
+              <p>Archers are specialized in ranged physical attacks. Their flexibility and mobility make them great initiators on the battlefield.</p>
+              </div>        
+            </div>
+           </div>
+           <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+            <div class="row text-center" id="classtext">
+              <div class="col-sm-6"><img src="class5.png" id="classpic"></div>
+              <div class="col-sm-6"><img src="stat3.png" id="stats"><br><h3>Merchant</h3><br>
+              <p>Merchants are wealthy... They launch attacks with coins and their own creations. Quite special members in a group.</p>
+              </div>        
+            </div>
+          </div>
+           <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+            <div class="row text-center" id="classtext">
+              <div class="col-sm-6"><img src="class6.png" id="classpic"></div>
+              <div class="col-sm-6"><img src="stat4.png" id="stats"><br><h3>Acolyte</h3><br>
+              <p>Acolytes are devout followers of the light. Healing and supporting are their fortes. They are essential to every group.</p>
+              </div>        
+            </div>
+          </div>
+           <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+            <div class="row text-center" id="classtext">
+              <div class="col-sm-6"><img src="class7.png" id="classpic"></div>
+              <div class="col-sm-6"><img src="stat5.png" id="stats"><br><h3>Thief</h3><br>
+              <p>Thieves are masters of cloak and dagger. Surprise attacks and ambushes can always turn the tide of battle.</p>
+              </div>        
+            </div>
+          </div>
+          <div class="tab-pane fade" id="v-pills-mage" role="tabpanel" aria-labelledby="v-pills-mage-tab" tabindex="0">
+            <div class="row text-center" id="classtext">
+              <div class="col-sm-6"><img src="class8.png" id="classpic"></div>
+              <div class="col-sm-6"><img src="stat6.png" id="stats"><br><h3>Mage</h3><br>
+              <p>Mages possess the power of elements and are specialized in ranged magic attacks.</p>
+              </div>        
+            </div>
+          </div>
+           </div>
+          </div>
+        </div>
+        </section>
+
+        <section id="footer">
+          <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"><img src="company.png" id="company"><br>
+            </div>
+            <div class="col-sm-4"></div>
+          </div>
+          <div class="row" id="footertext">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-2"><a href="#">Privacy policy</a></div>
+            <div class="col-sm-2"><a href="#">Term of Services</a></div>
+            <div class="col-sm-2"><a href="#">Support</a></div>
+            <div class="col-sm=3"></div>
+          </div>
+          <div class="row" id="footertext2">
+            <div class="col-4"></div>
+            <div class="col-4"><p>©2023 Gravity Game Hub. All Rights Reserved.</p></div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+          
+        </section>
+      </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
